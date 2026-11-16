@@ -1,0 +1,26 @@
+# serializer version: 1
+# name: test_entry_diagnostics
+  dict({
+    'device': dict({
+      'alarm_level': 160,
+      'battery_level': 98.9,
+      'battery_voltage': 6,
+      'fill_level': 53,
+      'id': 'DEV00001',
+      'last_emptied': '2026-11-09T06:36:12+01:00',
+      'level': 85,
+      'max_level': 195,
+      'measured_at': '2026-11-16T10:18:30+01:00',
+      'model': 'SZ04-002',
+      'name': 'Septic tank',
+      'predicted_full': '2026-11-23T05:33:48+01:00',
+      'signal_strength': 54,
+      'software': '11.0',
+      'temperature': 5.2,
+    }),
+    'entry_data': dict({
+      'account_id': '**REDACTED**',
+      'device_id': 'DEV00001',
+    }),
+  })
+# ---

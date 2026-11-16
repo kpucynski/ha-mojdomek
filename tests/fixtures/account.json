@@ -1,0 +1,83 @@
+{
+  "id": "ACCT0001",
+  "login": "***",
+  "firstname": "***",
+  "lastname": "***",
+  "email": "***",
+  "active": true,
+  "created": "2023-10-25 11:07:59",
+  "address": {
+    "address": "",
+    "town": "",
+    "postalcode": "",
+    "country": ""
+  },
+  "locations": [
+    {
+      "id": "DEV00001",
+      "name": "Septic tank",
+      "created": "2026-10-31 12:41:00",
+      "max": 195,
+      "alarm": 160,
+      "adc1": 201962,
+      "adc2": 386266,
+      "cm1": 5,
+      "cm2": 118,
+      "direction": "growth",
+      "active": true,
+      "tanktype": 1,
+      "mainboard": "SZ04-002",
+      "software": "11.0",
+      "address": {
+        "address": "",
+        "town": "",
+        "postalcode": "00-000",
+        "country": ""
+      },
+      "measurement": {
+        "percent": 53,
+        "cm": 85,
+        "temperature": 5.2,
+        "volts": 6,
+        "batt_level": 98.9,
+        "rssi": 54,
+        "nextfull": "2026-11-23 05:33:48",
+        "lastempty": "2026-11-09 06:36:12",
+        "datatime": "2026-11-16 10:18:30"
+      }
+    },
+    {
+      "id": "DEV00002",
+      "name": "Rain tank",
+      "created": "2023-10-25 11:07:59",
+      "max": 195,
+      "alarm": 160,
+      "adc1": 180922,
+      "adc2": 386266,
+      "cm1": 5,
+      "cm2": 118,
+      "direction": "growth",
+      "active": true,
+      "tanktype": 1,
+      "mainboard": "SZ04-002",
+      "software": "11.0",
+      "address": {
+        "address": "Example street 1",
+        "town": "Example town",
+        "postalcode": "00-001",
+        "country": "Polska"
+      },
+      "measurement": {
+        "percent": -6,
+        "cm": -10,
+        "temperature": 8.6,
+        "volts": 5.1,
+        "batt_level": 57.5,
+        "rssi": 67,
+        "nextfull": "2027-01-02 09:54:03",
+        "lastempty": "2026-10-22 11:01:15",
+        "datatime": "2026-07-31 09:54:27"
+      }
+    }
+  ]
+}

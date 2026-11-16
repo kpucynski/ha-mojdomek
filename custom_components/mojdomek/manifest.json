@@ -1,0 +1,11 @@
+{
+  "domain": "mojdomek",
+  "name": "mojdomek.eu",
+  "codeowners": ["@kpucynski"],
+  "config_flow": true,
+  "documentation": "https://github.com/kpucynski/ha-mojdomek",
+  "integration_type": "device",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/kpucynski/ha-mojdomek/issues",
+  "version": "0.1.0"
+}

@@ -1,0 +1,69 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Device is already configured",
+            "no_new_devices": "Every device of this account is already configured."
+        },
+        "error": {
+            "cannot_connect": "Failed to connect",
+            "invalid_auth": "mojdomek.eu does not recognize this account ID.",
+            "no_devices": "The account has no devices.",
+            "unknown": "Unexpected error"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "account_id": "Account ID"
+                },
+                "data_description": {
+                    "account_id": "The ID at the end of your mojdomek.eu API link, after \"id=\"."
+                }
+            },
+            "device": {
+                "title": "Select a device",
+                "data": {
+                    "device_id": "Device"
+                },
+                "data_description": {
+                    "device_id": "The liquid level sensor to add to Home Assistant."
+                }
+            }
+        }
+    },
+    "exceptions": {
+        "device_not_found": {
+            "message": "Device {device_id} is no longer part of the mojdomek.eu account."
+        },
+        "update_failed": {
+            "message": "Error communicating with mojdomek.eu: {error}"
+        }
+    },
+    "entity": {
+        "sensor": {
+            "fill_level": {
+                "name": "Fill level"
+            },
+            "level": {
+                "name": "Liquid level"
+            },
+            "predicted_full": {
+                "name": "Predicted full"
+            },
+            "last_emptied": {
+                "name": "Last emptied"
+            },
+            "battery_voltage": {
+                "name": "Battery voltage"
+            },
+            "last_measurement": {
+                "name": "Last measurement"
+            },
+            "alarm_level": {
+                "name": "Alarm level"
+            },
+            "max_level": {
+                "name": "Maximum level"
+            }
+        }
+    }
+}
