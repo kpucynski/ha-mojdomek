@@ -1,6 +1,6 @@
 # mojdomek.eu liquid level sensor for Home Assistant
 
-Home Assistant integration for [mojdomek.eu](https://mojdomek.eu) ultrasonic liquid level sensors (cesspits, septic tanks, rainwater tanks, and similar). The cloud API is polled and each selected device is exposed as a Home Assistant device with sensors for fill level, liquid height, temperature, battery, signal, and predicted full / last emptied times.
+Home Assistant integration for [mojdomek.eu](https://mojdomek.eu/products.php) pressure-based liquid level sensors (cesspits, septic tanks, rainwater tanks, and similar). A probe on the tank floor measures hydrostatic pressure; the cloud API is polled and each selected device is exposed as a Home Assistant device with sensors for fill level, liquid height, temperature, battery, signal, and predicted full / last emptied times.
 
 ## Features
 
@@ -55,6 +55,12 @@ The integration uses the public JSON endpoint:
 `https://mojdomek.eu/api/api2.php?id=<account_id>`
 
 Timestamps from the API are treated as Europe/Warsaw local time.
+
+## Support
+
+This integration is free and maintained in spare time. If it helps you keep an eye on your septic or rainwater tank, consider buying me a coffee — it keeps the work going.
+
+[![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://buymeacoffee.com/kpucynski)
 
 ## Removal
 
